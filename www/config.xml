@@ -3,7 +3,7 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.phonegap.helloworld"
+        id        = "com.marcapps.ovenuse"
         version   = "1.0.0">
 
     <name>Oven Use</name>
@@ -13,7 +13,7 @@
     </description>
 
     <author href="http://marcsapps.com" email="support@marcsapps.com">
-        PhoneGap Team
+        Marc Apps
     </author>
 
     <!-- Define the main entry-point to the application -->
@@ -29,6 +29,7 @@
 
     <!-- Plugins -->
     <!-- Core plugins -->
+	<!-- 
     <plugin name="cordova-plugin-battery-status"      source="npm" spec="~1.1.1" />
     <plugin name="cordova-plugin-camera"              source="npm" spec="~2.1.1" />
     <plugin name="cordova-plugin-media-capture"       source="npm" spec="~1.2.0" />
@@ -49,6 +50,10 @@
     <plugin name="cordova-plugin-statusbar"           source="npm" spec="~2.1.2" />
     <plugin name="cordova-plugin-vibration"           source="npm" spec="~2.1.0" />
     <plugin name="cordova-plugin-whitelist"           source="npm" spec="~1.2.1" />
+Core plugins 
+-->
+
+
 
     <!-- Define app icon and splashscreen for each platform. -->
 	
