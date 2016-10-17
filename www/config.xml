@@ -116,7 +116,7 @@ Core plugins
     <splash src="res/screens/android/screen-xhdpi-portrait.png" density="port-xhdpi"/>
 
 </platform>
- 
+ <preference name="SplashScreenDelay" value="10000" />
     <!--
         Define access to external domains.
 
