@@ -6,7 +6,7 @@
 ul {
   list-style-type: none;
   padding-left:0;
-}
+ }
 
 h3 {
   font: bold 20px/2 ;
@@ -17,7 +17,7 @@ li img {
   margin: 0 15px 0 0;
 }
 
-li p {
+li p { 
   font: 200 12px/1.5 ;
 }
 
@@ -35,33 +35,40 @@ li a {
  
 
 li {
-  padding: 10px;
-  overflow: auto;
-  
+	padding: 10px;
+	overflow: auto;
+	
 }
 
 li:hover {
   background: #eee;
   cursor: pointer;
+    
+}
 
- 
- }
 div {
+
   margin: 20px;
 }
-#menu {
-
-}
-
+body {
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight:2em;
+  }
+ 
  
 ul {
 	list-style-type: none;
 	width: 95%;
 }
  
-h3 {
-  font: bold 20px/1.5 ;
-}
+body h1 {
+	font-weight: bold;
+	font-size: 3em;
+	text-align: center;
+	text-shadow: -3px 2px 3px rgba(50,0,255,0.44);
+	text-transform: capitalize;
+	letter-spacing: -10%;
+ }
  
 li img {
   float: left;
@@ -73,14 +80,18 @@ li p {
 }
  
 li {
-  padding: 10px;
-  overflow: auto;
-  color: #000000;
+	padding: 10px;
+	overflow: auto;
+	color: #000000;
 	height: 10%;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	border: thin solid #000000;
+	border: thin outset #000000;
+	border-top-right-radius: 0px;
+	text-shadow: -1px -1px 1px rgba(67,69,88,0.45);
+	text-align: center;
+	text-transform: capitalize;
 }
  
 li:hover {
@@ -91,4 +102,13 @@ li:hover {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	border: thin solid #000000;
+}
+#Nav1 {
+	font-family: alfa-slab-one;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	-webkit-transition: all 2s;
+	-o-transition: all 2s;
+	transition: all 2s;
 }
