@@ -84,7 +84,7 @@ li {
 }
  
 li:hover {
-	background: #eee;
+	background-color: rgba(153,174,241,1.00);
 	cursor: pointer;
 	color: #000000;
 	-webkit-box-sizing: border-box;
